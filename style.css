@@ -70,8 +70,8 @@ body {
     transform: skewX(-5deg);
 
     text-shadow:
-        2px 2px 0 #84a98c,
-        4px 4px 8px rgba(47, 62, 70, 0.15);
+        2px 2px 0 palegoldenrod;
+        4px 4px 8px pink;
 
     transition: 0.3s ease;
 }
@@ -1091,12 +1091,45 @@ body {
 
     margin-bottom: 0;
 }
+/* GitHub Link Inside Project */
 
+.project-github {
+    display: inline-block;
+
+    align-self: flex-start;
+
+    margin-top: 18px;
+
+    padding: 9px 18px;
+
+    background-color: #52796f;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    border-radius: 9px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+
+.project-github:hover {
+    background-color: #354f52;
+
+    color: #ffffff;
+
+    transform: translateY(-2px);
+}
 
 /* =========================================
    GITHUB BUTTON
 ========================================= */
-
+/*
 .github-profile {
     text-align: center;
 
@@ -1132,7 +1165,7 @@ body {
 
     color: #ffffff;
 }
-
+*/
 
 /* =========================================
    TABLET
