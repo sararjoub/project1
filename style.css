@@ -1,7 +1,4 @@
 
-/* ==================================================
-   GENERAL SETTINGS
-================================================== */
 
 * {
     margin: 0;
@@ -19,12 +16,9 @@ body {
     color: #2f3e46;
     line-height: 1.6;
 }
+    
 
-
-
-/* ==================================================
-   NAVBAR
-================================================== */
+/*  navbar */
 
 #section-1 {
     position: sticky;
@@ -38,21 +32,6 @@ body {
     box-shadow: 0 2px 15px rgba(47, 62, 70, 0.08);
 }
 
-
-/* Logo */
-/*
-.logo {
-    color: #52796f !important;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: 0.3s ease;
-}
-
-.logo:hover {
-    color: #354f52 !important;
-}
-*/
 
 .logo {
     color: #354f52;
@@ -71,25 +50,21 @@ body {
 
     text-shadow:
         2px 2px 0 palegoldenrod;
-        4px 4px 8px pink;
 
     transition: 0.3s ease;
 }
 
-
-/* Logo Hover */
-
 .logo:hover {
     color: #52796f;
 
-    transform: skewX(-5deg) translateY(-2px);
+    transform: skewX(-5deg) translateY(-3px);
 
     text-shadow:
         3px 3px 0 #84a98c,
         5px 5px 10px rgba(47, 62, 70, 0.18);
 }
 
-/* Navbar Links */
+/* navbar-link */
 
 .nav-link {
     color: #354f52 !important;
@@ -114,19 +89,12 @@ body {
     box-shadow: none;
 }
 
+/*  general seeting */
 
-
-/* ==================================================
-   GENERAL SECTION SETTINGS
-================================================== */
-
-.portfolio-section {
+.portfolio {
     padding: 100px 0;
     min-height: 500px;
 }
-
-
-/* Section Heading */
 
 .section-heading {
     text-align: center;
@@ -144,11 +112,11 @@ body {
     color: #84a98c;
     font-size: 17px;
 }
-/* ==================================================
-   SECTION 1 - HERO
-================================================== */
+    
 
-.hero-section {
+/*    section1---Hero  */
+
+.hero {
     min-height: 85vh;
 
     display: flex;
@@ -158,15 +126,11 @@ body {
     padding: 80px 0;
 }
 
-
-/* Hero Content */
-
-.hero-content {
+.content {
     padding-right: 30px;
 }
 
-
-.hero-greeting {
+.greeting {
     color: #52796f;
 
     font-size: 20px;
@@ -177,7 +141,7 @@ body {
 }
 
 
-.hero-content h1 {
+.content h1 {
     color: #354f52;
 
     font-size: 52px;
@@ -188,7 +152,7 @@ body {
 }
 
 
-.hero-content h2 {
+.content h2 {
     color: #52796f;
 
     font-size: 28px;
@@ -199,7 +163,7 @@ body {
 }
 
 
-.hero-description {
+.description {
     max-width: 600px;
 
     color: #555;
@@ -211,10 +175,8 @@ body {
     margin-bottom: 30px;
 }
 
-
-/* CV Button */
-
-.cv-button {
+/* CV -Button */
+.cv {
     display: inline-block;
 
     padding: 12px 28px;
@@ -233,7 +195,7 @@ body {
 }
 
 
-.cv-button:hover {
+.cv:hover {
     background-color: #354f52;
 
     color: #ffffff;
@@ -242,7 +204,7 @@ body {
 }
 
 
-/* Hero Image */
+/* hero.img */
 
 .hero-image {
     text-align: center;
@@ -275,16 +237,13 @@ body {
 }
 
 
-/* ==================================================
-   ABOUT SECTION
-================================================== */
+/* about/section */
 
 .about-section {
     background-color: #ffffff;
 }
 
-
-/* About Card */
+/* about/card */
 
 .about-card {
     max-width: 1000px;
@@ -302,17 +261,9 @@ body {
     border-left: 5px solid #84a98c;
 }
 
-
-
-
-/* About Text */
-
 .about-text {
     flex: 1;
 }
-
-
-
 
 .about-text p {
     color: #52796f;
@@ -320,8 +271,7 @@ body {
     margin-bottom: 15px;
 }
 
-
-/* About Button */
+/* about/button*/
 
 .about-button {
     display: inline-block;
@@ -352,17 +302,11 @@ body {
 }
 
 
-
-/* ==================================================
-   EXPERIENCE SECTION
-================================================== */
+/*experice -section */
 
 .experience-section {
     background-color: #f8f6f2;
 }
-
-
-/* Experience Container */
 
 .experience-container {
     max-width: 950px;
@@ -372,9 +316,6 @@ body {
     flex-direction: column;
     gap: 30px;
 }
-
-
-/* Experience Card */
 
 .experience-card {
     position: relative;
@@ -391,17 +332,14 @@ body {
     transition: 0.3s ease;
 }
 
-
-/* Card Hover */
-
+/* card hover*/
 .experience-card:hover {
     transform: translateY(-5px);
 
     box-shadow: 0 12px 30px rgba(47, 62, 70, 0.12);
 }
 
-
-/* Experience Header */
+/* experience heder */
 
 .experience-header {
     display: flex;
@@ -415,8 +353,7 @@ body {
     margin-bottom: 20px;
 }
 
-
-/* Experience Title */
+/* experience-- titlee */
 
 .experience-card h3 {
     color: #354f52;
@@ -428,8 +365,7 @@ body {
     margin-bottom: 6px;
 }
 
-
-/* Company */
+/* Company -card */
 
 .experience-card h4 {
     color: #84a98c;
@@ -441,8 +377,7 @@ body {
     margin: 0;
 }
 
-
-/* Date */
+/* date-span */
 
 .experience-date {
     display: inline-block;
@@ -463,7 +398,7 @@ body {
 }
 
 
-/* Description */
+/* description */
 
 .experience-description {
     color: #52796f;
@@ -497,17 +432,13 @@ body {
 }
 
 
-
-/* ==================================================
-   QUALIFICATIONS SECTION
-================================================== */
+/*  section/qualification */
 
 .qualification-section {
      background-color: #ffffff;
 }
 
-
-/* Qualification Timeline */
+/* qualification-- timeline */
 
 .qualification-timeline {
     position: relative;
@@ -519,8 +450,7 @@ body {
     padding-left: 35px;
 }
 
-
-/* Vertical Timeline Line */
+/* verticaltimeline --Line */
 
 .qualification-timeline::before {
     content: "";
@@ -536,24 +466,18 @@ body {
     background-color: #84a98c;
 }
 
-
-/* Qualification Item */
-
 .qualification-item {
     position: relative;
 
     margin-bottom: 35px;
 }
 
-
 /* Remove Bottom Space */
-
 .qualification-item:last-child {
     margin-bottom: 0;
 }
 
-
-/* Timeline Dot */
+/* timeline --dot */
 
 .qualification-dot {
     position: absolute;
@@ -576,7 +500,7 @@ body {
 }
 
 
-/* Qualification Card */
+/* qualification --Card */
 
 .qualification-card {
      background-color: #f8f6f2;
@@ -589,17 +513,13 @@ body {
     transition: 0.3s ease;
 }
 
-
-/* Card Hover */
-
 .qualification-card:hover {
     transform: translateX(6px);
 
     box-shadow: 0 12px 30px rgba(47, 62, 70, 0.11);
 }
 
-
-/* Qualification Date */
+/* qualification-- date */
 
 .qualification-date {
     display: inline-block;
@@ -620,7 +540,7 @@ body {
 }
 
 
-/* Qualification Title */
+/* qualification -title */
 
 .qualification-card h3 {
     color: #354f52;
@@ -632,9 +552,6 @@ body {
     margin-bottom: 6px;
 }
 
-
-/* Institution */
-
 .qualification-card h4 {
     color: #84a98c;
 
@@ -645,8 +562,7 @@ body {
     margin-bottom: 15px;
 }
 
-
-/* Description */
+/* description */
 
 .qualification-card p {
     color: #52796f;
@@ -656,11 +572,7 @@ body {
     margin-bottom: 0;
 }
 
-
-
-/* ==================================================
-   SECTION 5 - SKILLS
-================================================== */
+/* section 5//skill*/
 
 .skills-section {
    background-color: #f8f6f2;
@@ -870,9 +782,7 @@ body {
 }
 
 
-/* ==================================================
-   TABLET
-================================================== */
+/* tablet  */
 
 @media (max-width: 991px) {
 
@@ -893,10 +803,7 @@ body {
 
 }
 
-
-/* ==================================================
-   MOBILE
-================================================== */
+/*  mobile --- */
 
 @media (max-width: 576px) {
 
@@ -940,10 +847,7 @@ body {
 
 }
 
-
-/* ==================================================
-   SMALL MOBILE
-================================================== */
+/* small------ mobile*/
 
 @media (max-width: 375px) {
 
@@ -964,16 +868,15 @@ body {
     }
 
 }
-/* =========================================
-   PROJECTS SECTION
-========================================= */
+
+
+/* project--section */
 
 .projects-section {
     background-color: #ffffff;
 
     padding: 90px 0;
 }
-
 
 /* Projects Container */
 
@@ -985,10 +888,7 @@ body {
     justify-content: center;
 }
 
-
-/* =========================================
-   PROJECT CARD
-========================================= */
+/* project// card  */
 
 .project-card {
     height: 100%;
@@ -1010,8 +910,6 @@ body {
 }
 
 
-/* Card Hover */
-
 .project-card:hover {
     transform: translateY(-6px);
 
@@ -1019,9 +917,7 @@ body {
 }
 
 
-/* =========================================
-   PROJECT IMAGE
-========================================= */
+/*project // image */
 
 .project-image {
     width: 100%;
@@ -1031,8 +927,7 @@ body {
     overflow: hidden;
 }
 
-
-/* Image */
+/* img */
 
 .project-image img {
     width: 100%;
@@ -1045,17 +940,12 @@ body {
     transition: 0.4s ease;
 }
 
-
-/* Image Hover */
-
 .project-card:hover .project-image img {
     transform: scale(1.05);
 }
 
 
-/* =========================================
-   PROJECT CONTENT
-========================================= */
+/* project // content */
 
 .project-content {
     padding: 25px;
@@ -1066,8 +956,7 @@ body {
     flex-direction: column;
 }
 
-
-/* Project Title */
+/* Project//  title */
 
 .project-content h3 {
     color: #354f52;
@@ -1080,7 +969,7 @@ body {
 }
 
 
-/* Project Description */
+/* Project// description */
 
 .project-content p {
     color: #52796f;
@@ -1091,7 +980,7 @@ body {
 
     margin-bottom: 0;
 }
-/* GitHub Link Inside Project */
+/* GitHub */
 
 .project-github {
     display: inline-block;
@@ -1126,50 +1015,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* =========================================
-   GITHUB BUTTON
-========================================= */
-/*
-.github-profile {
-    text-align: center;
-
-    margin-top: 45px;
-}
-
-
-.github-button {
-    display: inline-block;
-
-    padding: 11px 24px;
-
-    background-color: #52796f;
-
-    color: #ffffff;
-
-    text-decoration: none;
-
-    border-radius: 10px;
-
-    font-size: 14px;
-
-    font-weight: 600;
-
-    transition: 0.3s ease;
-}
-
-
-.github-button:hover {
-    background-color: #354f52;
-
-    transform: translateY(-2px);
-
-    color: #ffffff;
-}
-*/
-
-/* =========================================
-   TABLET
-========================================= */
+/* TABLET */
 
 @media (max-width: 991px) {
 
@@ -1189,10 +1035,7 @@ body {
 
 }
 
-
-/* =========================================
-   MOBILE
-========================================= */
+/* mobile   */
 
 @media (max-width: 767px) {
 
@@ -1227,10 +1070,7 @@ body {
 
 }
 
-
-/* =========================================
-   SMALL MOBILE
-========================================= */
+/* small mobile // */
 
 @media (max-width: 576px) {
 
@@ -1250,23 +1090,11 @@ body {
 
 }
 
-
-
-
-/* ==================================================
-   SECTION 7 - REFERENCES
-================================================== */
-
-/* ==================================================
-   SECTION 7 - REFERENCES
-================================================== */
+/* section 7/ refernce*/
 
 .references-section {
    background-color: #f8f6f2;
 }
-
-
-/* Section Container */
 
 .references-container {
     width: 100%;
@@ -1285,9 +1113,7 @@ body {
 }
 
 
-/* ==================================================
-   REFERENCE CARD
-================================================== */
+/* card// refernce */
 
 .reference-card {
     width: 100%;
@@ -1312,9 +1138,6 @@ body {
     transition: 0.3s ease;
 }
 
-
-/* Card Hover */
-
 .reference-card:hover {
     transform: translateY(-5px);
 
@@ -1322,9 +1145,7 @@ body {
 }
 
 
-/* ==================================================
-   REFERENCE ICON
-================================================== */
+/*refernce // icon */
 
 .reference-icon {
     width: 40px;
@@ -1349,9 +1170,7 @@ body {
 }
 
 
-/* ==================================================
-   NAME
-================================================== */
+/* refernce// name trainee */
 
 .reference-card h3 {
     color: #354f52;
@@ -1364,9 +1183,7 @@ body {
 }
 
 
-/* ==================================================
-   ROLE
-================================================== */
+/*  ROLE  */
 
 .reference-role {
     color: #52796f;
@@ -1377,9 +1194,7 @@ body {
 }
 
 
-/* ==================================================
-   LINKS
-================================================== */
+/* link-- refernce */
 
 .reference-links {
     display: flex;
@@ -1420,9 +1235,7 @@ body {
 }
 
 
-/* ==================================================
-   TABLET
-================================================== */
+/* tablet  */
 
 @media (max-width: 991px) {
 
@@ -1444,9 +1257,7 @@ body {
 }
 
 
-/* ==================================================
-   MOBILE
-================================================== */
+/* mobile   */
 
 @media (max-width: 767px) {
 
@@ -1467,9 +1278,7 @@ body {
 
 }
 
-/* ==================================================
-   SECTION 8: FOOTER / CONTACT
-================================================== */
+/* section 8/ footer-- contact */
 
 #section-8 {
     background-color: #354f52;
@@ -1481,8 +1290,6 @@ body {
     text-align: center;
 }
 
-
-/* Footer Content */
 
 .footer-content {
     max-width: 750px;
@@ -1513,14 +1320,11 @@ body {
 }
 
 
-/* Contact Links */
-
 .contact-links {
     margin: 0 auto;
 }
 
-
-/* Contact Button */
+/* contact-- button */
 
 .contact-link {
     display: inline-block;
@@ -1544,8 +1348,7 @@ body {
     transition: 0.3s ease;
 }
 
-
-/* Contact Button Hover */
+/* Contact--link Hover */
 
 .contact-link:hover {
     background-color: #84a98c;
@@ -1555,8 +1358,6 @@ body {
     transform: translateY(-3px);
 }
 
-
-/* Footer Bottom */
 
 .footer-bottom {
     margin-top: 50px;
@@ -1604,33 +1405,31 @@ body {
 
     transition: 0.3s ease;
 }
-/* ==================================================
-   RESPONSIVE DESIGN
-================================================== */
 
 
-/* ==================================================
-   TABLETS
-   Screens: 768px - 991px
-================================================== */
+/* responsive----------------- design */
+
+
+/* tablet
+ Screens: 768px - 991px */
 
 @media (max-width: 991px) {
     /* hero */
-      .hero-section {
+      .hero {
         text-align: center;
 
         padding: 70px 20px;
     }
 
 
-    .hero-content {
+    .content {
         padding-right: 0;
 
         margin-bottom: 40px;
     }
 
 
-    .hero-description {
+    .description {
         margin-left: auto;
 
         margin-right: auto;
@@ -1692,6 +1491,7 @@ body {
     .qualification-card {
         padding: 28px 30px;
     }
+
     /* Skills */
 
 .skills-card {
@@ -1774,38 +1574,27 @@ body {
     }
 
 
-
-
-
-
-/* ==================================================
-   MOBILE DEVICES
-   Screens: 576px and below
-================================================== */
+/* mobile device
+Screens: 576px and below */
 
 @media (max-width: 576px) {
     /* hero*/
-     .hero-section {
+     .hero {
         padding: 60px 15px;
     }
 
 
-    .hero-content h1 {
+    .content h1 {
         font-size: 38px;
     }
 
 
-  /*  .hero-content h2 {
-        font-size: 23px;
-    }*/
-
-
-    .hero-greeting {
+    .greeting {
         font-size: 18px;
     }
 
 
-    .hero-description {
+    .description {
         font-size: 15px;
     }
 
@@ -1932,7 +1721,7 @@ body {
     }
 
     /* Skills */
-
+/*
 .skills-card {
     padding: 28px 20px;
 }
@@ -1958,6 +1747,9 @@ body {
     font-size: 13px;
     padding: 8px 11px;
 }
+
+*/
+
 /* Projects */
 
 .projects-container {
@@ -2086,13 +1878,8 @@ body {
 
 
     
-
-
-
-/* ==================================================
-   SMALL MOBILE DEVICES
-   Screens: 375px and below
-================================================== */
+/* small mobile
+   Screens: 375px and below */
 
 @media (max-width: 375px) {
         /* About */
@@ -2192,7 +1979,7 @@ body {
     }
 
     /* Skills */
-
+/*
 .skills-card {
     padding: 24px 16px;
 }
@@ -2204,6 +1991,7 @@ body {
 .soft-skills-container {
     gap: 8px;
 }
+    
 
 /* Projects */
 
@@ -2223,10 +2011,6 @@ body {
         width: 170px;
     }
 
-
-        
-
-    
 
 /* Footer */
 
